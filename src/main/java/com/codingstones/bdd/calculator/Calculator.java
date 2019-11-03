@@ -12,4 +12,12 @@ public class Calculator {
     public int currentValue(){
         return value;
     }
+
+    public void multiply(int aNumber, int anotherNumber) {
+        value = aNumber * anotherNumber;
+    }
+
+    public void divide(int aNumber, int anotherNumber) {
+        value = aNumber / anotherNumber;
+    }
 }
